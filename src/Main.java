@@ -5,8 +5,9 @@ public class Main {
     public static void main(String[] args){
         try{
             String str;
-            str = null;
+            str = "3．14";
             System.out.println(str.length());
+            double value = Double.parseDouble(str);
 
         }catch(NullPointerException e) {
             System.out.println(e);
